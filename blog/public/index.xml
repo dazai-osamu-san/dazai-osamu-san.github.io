@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dazai&#39;s blog</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content on Dazai&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Astrophotography Experience</title>
+      <link>http://localhost:1313/blog/astrophoto/</link>
+      <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/astrophoto/</guid>
+      <description>&lt;p&gt;Recently I&amp;rsquo;ve discovered the new hobby of astrophotography, although I don&amp;rsquo;t have a lot of the gear, I try to grab every opportunity to get a photo. Recently one of those opportunities came by, I rented a camera and the lens and went to the location. This post I&amp;rsquo;ll go through the process of taking these types of photos and what mistakes I made. (this was a first time experience for me too).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is Fourier Series and How it Came to Be?</title>
+      <link>http://localhost:1313/blog/fourier/</link>
+      <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/fourier/</guid>
+      <description>&lt;p&gt;The Fourier series is a mathematical concept which was developed by the French mathematician Jean-Baptiste Fourier in the early 19th century. He engraved his name in the mathematics hall of fame with the groundbreaking discovery of Fourier series.&lt;/p&gt;&#xA;&lt;p&gt;Fourier&amp;rsquo;s key insight was that any function could be decomposed into a sum of sine and cosine waves with different amplitudes and frequencies. This discovery laid the foundation many areas science like physics, telecommunication etc.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

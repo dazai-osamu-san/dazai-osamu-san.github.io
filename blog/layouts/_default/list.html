@@ -1,0 +1,15 @@
+{{ define "main" }}
+<h1>Blog</h1>
+<div class="content">
+    <p style="color: #666; margin-bottom: 40px;">Posts written once in a blue moon.</p>
+    {{ range .Pages }}
+    <div class="blog-post">
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <div class="date">{{ .Date.Format "January 2006" }}</div>
+        {{ if .Summary }}
+        <p>{{ .Summary }}</p>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}

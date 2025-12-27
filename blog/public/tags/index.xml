@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Dazai&#39;s blog</title>
+    <link>http://localhost:1313/blog/tags/</link>
+    <description>Recent content in Tags on Dazai&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Jan 1970 06:03:44 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Astrophotography</title>
+      <link>http://localhost:1313/blog/tags/astrophotography/</link>
+      <pubDate>Thu, 01 Jan 1970 06:03:44 +0530</pubDate>
+      <guid>http://localhost:1313/blog/tags/astrophotography/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hobby</title>
+      <link>http://localhost:1313/blog/tags/hobby/</link>
+      <pubDate>Thu, 01 Jan 1970 06:03:44 +0530</pubDate>
+      <guid>http://localhost:1313/blog/tags/hobby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Photography</title>
+      <link>http://localhost:1313/blog/tags/photography/</link>
+      <pubDate>Thu, 01 Jan 1970 06:03:44 +0530</pubDate>
+      <guid>http://localhost:1313/blog/tags/photography/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fourier</title>
+      <link>http://localhost:1313/blog/tags/fourier/</link>
+      <pubDate>Thu, 01 Jan 1970 06:03:43 +0530</pubDate>
+      <guid>http://localhost:1313/blog/tags/fourier/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mathematics</title>
+      <link>http://localhost:1313/blog/tags/mathematics/</link>
+      <pubDate>Thu, 01 Jan 1970 06:03:43 +0530</pubDate>
+      <guid>http://localhost:1313/blog/tags/mathematics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Signal-Processing</title>
+      <link>http://localhost:1313/blog/tags/signal-processing/</link>
+      <pubDate>Thu, 01 Jan 1970 06:03:43 +0530</pubDate>
+      <guid>http://localhost:1313/blog/tags/signal-processing/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

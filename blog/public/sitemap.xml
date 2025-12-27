@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/blog/tags/astrophotography/</loc>
+    <lastmod>1970-01-01T06:03:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>1970-01-01T06:03:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/hobby/</loc>
+    <lastmod>1970-01-01T06:03:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/astrophoto/</loc>
+    <lastmod>1970-01-01T06:03:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/photography/</loc>
+    <lastmod>1970-01-01T06:03:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>1970-01-01T06:03:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/fourier/</loc>
+    <lastmod>1970-01-01T06:03:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/mathematics/</loc>
+    <lastmod>1970-01-01T06:03:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/signal-processing/</loc>
+    <lastmod>1970-01-01T06:03:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/fourier/</loc>
+    <lastmod>1970-01-01T06:03:43+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/</loc>
+  </url>
+</urlset>

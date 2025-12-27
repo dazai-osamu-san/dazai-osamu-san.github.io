@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Signal-Processing on Dazai&#39;s blog</title>
+    <link>http://localhost:1313/blog/tags/signal-processing/</link>
+    <description>Recent content in Signal-Processing on Dazai&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Jan 1970 06:03:43 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/signal-processing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is Fourier Series and How it Came to Be?</title>
+      <link>http://localhost:1313/blog/fourier/</link>
+      <pubDate>Thu, 01 Jan 1970 06:03:43 +0530</pubDate>
+      <guid>http://localhost:1313/blog/fourier/</guid>
+      <description>&lt;p&gt;The Fourier series is a mathematical concept which was developed by the French mathematician Jean-Baptiste Fourier in the early 19th century. He engraved his name in the mathematics hall of fame with the groundbreaking discovery of Fourier series.&lt;/p&gt;&#xA;&lt;p&gt;Fourier&amp;rsquo;s key insight was that any function could be decomposed into a sum of sine and cosine waves with different amplitudes and frequencies. This discovery laid the foundation many areas science like physics, telecommunication etc.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
