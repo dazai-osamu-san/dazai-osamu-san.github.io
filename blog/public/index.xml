@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dazai&#39;s blog</title>
-    <link>https://dazai-osamu-sana.github.io/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content on Dazai&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dazai-osamu-sana.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Dec 2025 23:48:25 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Red Pitaya Custom Vivado Project Creation</title>
+      <link>http://localhost:1313/blog/red-pitaya-custom-vivado-project/</link>
+      <pubDate>Sat, 27 Dec 2025 23:48:25 +0530</pubDate>
+      <guid>http://localhost:1313/blog/red-pitaya-custom-vivado-project/</guid>
+      <description>&lt;p&gt;This probably will end up a series of posts on the road blocks I hit while working on the Red Pitaya. I am using the STEM-Lab 125-14 variant.&lt;/p&gt;&#xA;&lt;p&gt;I also want to mention that Pavel Demin has done an amazing job at simplifying this whole process, I like taking on challenges so I went my own way.&lt;/p&gt;&#xA;&lt;p&gt;The motivation behind this post being I couldn&amp;rsquo;t find a minimal way to write quick custom FPGA bitstreams without the extra baggage presented by the default vivado project.&#xA;In many of the cases you also do end up needing the PS for some reason like setting coefficients etc.&#xA;Just to utilize the PL part to do simple tasks like ADC -&amp;gt; DAC loopbacks, testing out filters on hardware for response verification, turned out a bit more annoying.&lt;br&gt;&#xA;Opening the default project on different Vivado version causes the first issue. It&amp;rsquo;s mentioned in the official documentation that you require linux and a specific Vivado version, but you can pretty easily get everything running on windows with a little bit of TCL scripting and editing the right TCL files by changing the versions. Just make sure to update IPs to latest version.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My Astrophotography Experience</title>
-      <link>https://dazai-osamu-sana.github.io/blog/astrophoto/</link>
+      <link>http://localhost:1313/blog/astrophoto/</link>
       <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://dazai-osamu-sana.github.io/blog/astrophoto/</guid>
+      <guid>http://localhost:1313/blog/astrophoto/</guid>
       <description>&lt;p&gt;Recently I&amp;rsquo;ve discovered the new hobby of astrophotography, although I don&amp;rsquo;t have a lot of the gear, I try to grab every opportunity to get a photo. Recently one of those opportunities came by, I rented a camera and the lens and went to the location. This post I&amp;rsquo;ll go through the process of taking these types of photos and what mistakes I made. (this was a first time experience for me too).&lt;/p&gt;</description>
     </item>
     <item>
       <title>What is Fourier Series and How it Came to Be?</title>
-      <link>https://dazai-osamu-sana.github.io/blog/fourier/</link>
+      <link>http://localhost:1313/blog/fourier/</link>
       <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://dazai-osamu-sana.github.io/blog/fourier/</guid>
+      <guid>http://localhost:1313/blog/fourier/</guid>
       <description>&lt;p&gt;The Fourier series is a mathematical concept which was developed by the French mathematician Jean-Baptiste Fourier in the early 19th century. He engraved his name in the mathematics hall of fame with the groundbreaking discovery of Fourier series.&lt;/p&gt;&#xA;&lt;p&gt;Fourier&amp;rsquo;s key insight was that any function could be decomposed into a sum of sine and cosine waves with different amplitudes and frequencies. This discovery laid the foundation many areas science like physics, telecommunication etc.&lt;/p&gt;</description>
     </item>
   </channel>

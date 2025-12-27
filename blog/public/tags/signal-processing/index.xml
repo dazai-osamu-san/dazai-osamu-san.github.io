@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Signal-Processing on Dazai&#39;s blog</title>
-    <link>https://dazai-osamu-sana.github.io/blog/tags/signal-processing/</link>
+    <link>http://localhost:1313/blog/tags/signal-processing/</link>
     <description>Recent content in Signal-Processing on Dazai&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 03 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dazai-osamu-sana.github.io/blog/tags/signal-processing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/signal-processing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is Fourier Series and How it Came to Be?</title>
-      <link>https://dazai-osamu-sana.github.io/blog/fourier/</link>
+      <link>http://localhost:1313/blog/fourier/</link>
       <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://dazai-osamu-sana.github.io/blog/fourier/</guid>
+      <guid>http://localhost:1313/blog/fourier/</guid>
       <description>&lt;p&gt;The Fourier series is a mathematical concept which was developed by the French mathematician Jean-Baptiste Fourier in the early 19th century. He engraved his name in the mathematics hall of fame with the groundbreaking discovery of Fourier series.&lt;/p&gt;&#xA;&lt;p&gt;Fourier&amp;rsquo;s key insight was that any function could be decomposed into a sum of sine and cosine waves with different amplitudes and frequencies. This discovery laid the foundation many areas science like physics, telecommunication etc.&lt;/p&gt;</description>
     </item>
   </channel>

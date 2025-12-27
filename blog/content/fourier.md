@@ -14,7 +14,7 @@ Fourier derived a formula which is now known as the Fourier series which provide
 
 All of this is quite a bit to understand just through words, so lets look at a small animation which will help us understand a bit easier. (This animation was taken from 3b1b's video on this very topic. Watch the video after reading this!)
 
-![Fourier Animation](/blog/static/StickAround.gif)
+![Fourier Animation]("/blog/StickAround.gif")
 
 Pretty cool right!? Now lets take a look at the maths.
 

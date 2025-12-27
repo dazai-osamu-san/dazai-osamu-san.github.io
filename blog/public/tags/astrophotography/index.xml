@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Astrophotography on Dazai&#39;s blog</title>
-    <link>https://dazai-osamu-sana.github.io/blog/tags/astrophotography/</link>
+    <link>http://localhost:1313/blog/tags/astrophotography/</link>
     <description>Recent content in Astrophotography on Dazai&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dazai-osamu-sana.github.io/blog/tags/astrophotography/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/astrophotography/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Astrophotography Experience</title>
-      <link>https://dazai-osamu-sana.github.io/blog/astrophoto/</link>
+      <link>http://localhost:1313/blog/astrophoto/</link>
       <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://dazai-osamu-sana.github.io/blog/astrophoto/</guid>
+      <guid>http://localhost:1313/blog/astrophoto/</guid>
       <description>&lt;p&gt;Recently I&amp;rsquo;ve discovered the new hobby of astrophotography, although I don&amp;rsquo;t have a lot of the gear, I try to grab every opportunity to get a photo. Recently one of those opportunities came by, I rented a camera and the lens and went to the location. This post I&amp;rsquo;ll go through the process of taking these types of photos and what mistakes I made. (this was a first time experience for me too).&lt;/p&gt;</description>
     </item>
   </channel>

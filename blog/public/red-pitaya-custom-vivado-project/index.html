@@ -4,10 +4,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <head>
-	<meta name="generator" content="Hugo 0.152.2">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dazai&#39;s blog - Dazai</title>
+    <title>Red Pitaya Custom Vivado Project Creation - Dazai</title>
 
 
 
@@ -90,40 +89,28 @@
             <a href="/blog/">Blog</a>
         </nav>
         
-<h1>Blog</h1>
+<a href="/blog/" class="back-link">← Back to Blog</a>
+<h1>Red Pitaya Custom Vivado Project Creation</h1>
+<div class="date" style="margin-bottom: 30px;">December 27, 2025</div>
 <div class="content">
-    <p style="color: #666; margin-bottom: 40px;">Posts written once in a blue moon.</p>
-    
-    <div class="blog-post">
-        <h3><a href="/blog/red-pitaya-custom-vivado-project/">Red Pitaya Custom Vivado Project Creation</a></h3>
-        <div class="date">December 2025</div>
-        
-        <p><p>This probably will end up a series of posts on the road blocks I hit while working on the Red Pitaya. I am using the STEM-Lab 125-14 variant.</p>
+    <p>This probably will end up a series of posts on the road blocks I hit while working on the Red Pitaya. I am using the STEM-Lab 125-14 variant.</p>
 <p>I also want to mention that Pavel Demin has done an amazing job at simplifying this whole process, I like taking on challenges so I went my own way.</p>
 <p>The motivation behind this post being I couldn&rsquo;t find a minimal way to write quick custom FPGA bitstreams without the extra baggage presented by the default vivado project.
 In many of the cases you also do end up needing the PS for some reason like setting coefficients etc.
 Just to utilize the PL part to do simple tasks like ADC -&gt; DAC loopbacks, testing out filters on hardware for response verification, turned out a bit more annoying.<br>
-Opening the default project on different Vivado version causes the first issue. It&rsquo;s mentioned in the official documentation that you require linux and a specific Vivado version, but you can pretty easily get everything running on windows with a little bit of TCL scripting and editing the right TCL files by changing the versions. Just make sure to update IPs to latest version.</p></p>
-        
-    </div>
-    
-    <div class="blog-post">
-        <h3><a href="/blog/astrophoto/">My Astrophotography Experience</a></h3>
-        <div class="date">May 2023</div>
-        
-        <p><p>Recently I&rsquo;ve discovered the new hobby of astrophotography, although I don&rsquo;t have a lot of the gear, I try to grab every opportunity to get a photo. Recently one of those opportunities came by, I rented a camera and the lens and went to the location. This post I&rsquo;ll go through the process of taking these types of photos and what mistakes I made. (this was a first time experience for me too).</p></p>
-        
-    </div>
-    
-    <div class="blog-post">
-        <h3><a href="/blog/fourier/">What is Fourier Series and How it Came to Be?</a></h3>
-        <div class="date">May 2023</div>
-        
-        <p><p>The Fourier series is a mathematical concept which was developed by the French mathematician Jean-Baptiste Fourier in the early 19th century. He engraved his name in the mathematics hall of fame with the groundbreaking discovery of Fourier series.</p>
-<p>Fourier&rsquo;s key insight was that any function could be decomposed into a sum of sine and cosine waves with different amplitudes and frequencies. This discovery laid the foundation many areas science like physics, telecommunication etc.</p></p>
-        
-    </div>
-    
+Opening the default project on different Vivado version causes the first issue. It&rsquo;s mentioned in the official documentation that you require linux and a specific Vivado version, but you can pretty easily get everything running on windows with a little bit of TCL scripting and editing the right TCL files by changing the versions. Just make sure to update IPs to latest version.</p>
+<p>Second issue I faced is that this default project is not intuitively arranged, the Top file does not correlate to the bd as it generally would in a typical Vivado project. It is only used to instantiate the zynq PS and the XADC IP.
+I tried to reverse engineering the project and came up with this.</p>
+<p>Now trying to only remove certain parts to remove the extra stuff did not end well for me. So I went on a journey to strip it down of everything till only the Zynq IP, that also did not end well due to the default project structure.</p>
+<p>Finally I tried downloading the board files and start a project from scratch in Vivado and selecting the board in the wizard.
+It somehow does not instantiate the Zynq IP in the same way the original project does and many of the essentials were not enabled and I tried too long to find the right memory (RAM) part in the list. While messing around in the ZYNQ PS wizard I found that it allows you to save configuration to a TCL file.
+So I opened a clean original project and exported the ZYNQ PS configuration and started a new Vivado project but still select the red Pitaya board in the new project wizard and when you create the ZYNQ PS IP there is an option to import a configuration aswell, just select the file you saved before to apply the same configuration and disable and enable what you want now.
+So you have a clean project in the typical Vivado structure. Nice!</p>
+<p>The people at Red Pitaya have a good job at unifying their entire family into one repo but for the one who wants full program control it becomes a bit of a puzzle.</p>
+<p>Finally for the board constraints for these configurations you need to look around a bit aswell. They are split across two files, you need to pick out the main constraints that you need.</p>
+<p>To those who are going to work with the main ADCs you have to do some clock magic which I aim to cover once I fully figure that out.</p>
+<p>That&rsquo;s it for this post I hope you find it helpful.</p>
+
 </div>
 
     </div>
