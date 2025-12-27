@@ -1,24 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <head>
     <meta charset="UTF-8">
-    <title>About Me</title>
-    <!-- Link to the external CSS file -->
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dazai</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Petrona", BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        nav {
+            margin-bottom: 40px;
+        }
+
+        nav a {
+            color: #6366f1;
+            text-decoration: none;
+            margin-right: 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        .content {
+            font-size: 18px;
+            max-width: 600px;
+        }
+
+        .content p {
+            margin-bottom: 20px;
+        }
+
+        a.inline-link {
+            color: #6366f1;
+            text-decoration: none;
+        }
+
+        a.inline-link:hover {
+            text-decoration: underline;
+        }
+
+        .project-item {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .project-item:last-child {
+            border-bottom: none;
+        }
+
+        .project-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .blog-post {
+            margin-bottom: 30px;
+        }
+
+        .blog-post h3 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .blog-post .date {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav>
-        <a href="index.html">About Me</a> |
-        <a href="projects.html">Projects</a> |
-        <a href="blog.html">Blog</a>
-    </nav>
+    <div class="container">
+        <nav>
+            <a href="#" onclick="showPage('about'); return false;">About Me</a> | 
+            <a href="#" onclick="showPage('projects'); return false;">Projects</a> | 
+            <a href="#" onclick="showPage('blog'); return false;">Blog</a>
+        </nav>
 
-    <!-- Main Content -->
-    <h1>About Me</h1>
-    <p>Hi, I'm Aditya, known online by the pseudonym Dazai. I'm an Electronics and Telecommunications student focusing on Embedded Systems and currently exploring FPGAs. Once in a blue moon, I write a blog.</p>
-    <footer>
-      <p>Inspired</p>
-  </footer>
-  </body>
+        <div id="about-page" class="page-content">
+            <h1>About Me</h1>
+            <div class="content">
+                <p>Hi, I'm Aditya, known online by the pseudonym Dazai. I'm an Electronics and Telecommunications student
+				focusing on Digital Signal Processing on FPGAs with experience in Embedded Systems. Once in a blue moon, I write a <a href="#" onclick="showPage('blog'); return false;" class="inline-link">blog</a>.</p>
+                <p><em>keep learning</em></p>
+            </div>
+        </div>
+
+        <div id="projects-page" class="page-content hidden">
+            <h1>Projects</h1>
+            <div class="content">
+                <div class="project-item">
+                    <h3>LIGO India</h3>
+                    <p>Working on Data Acquisition, Digital Signal Processing and Feedback
+					Controls for optics system like Michelson Interferometer on Zynq7k SoCs and Noise Characterization.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Firmware Development</h3>
+                    <p>Design and development of firmware for STM32-line from scratch for Power Audit Kits.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Embedded System Development</h3>
+                    <p>Developed a complete standalone solution for logging and real-time monitoring of pressure in
+					Industrial settings.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="blog-page" class="page-content hidden">
+            <h1>Blog</h1>
+            <div class="content">
+                <p style="color: #666; margin-bottom: 40px;">Posts written once in a blue moon.</p>
+                <div class="blog-post">
+                    <h3><a href="#" class="inline-link">Blog Post Title 1</a></h3>
+                    <div class="date">December 2024</div>
+                    <p>A brief excerpt or description of your blog post...</p>
+                </div>
+                <div class="blog-post">
+                    <h3><a href="#" class="inline-link">Blog Post Title 2</a></h3>
+                    <div class="date">November 2024</div>
+                    <p>A brief excerpt or description of your blog post...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showPage(pageName) {
+            const pages = document.querySelectorAll('.page-content');
+            pages.forEach(page => page.classList.add('hidden'));
+            
+            document.getElementById(pageName + '-page').classList.remove('hidden');
+        }
+
+        // Show about page by default
+        showPage('about');
+    </script>
+</body>
 </html>
