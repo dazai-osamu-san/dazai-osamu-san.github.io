@@ -55,6 +55,7 @@ jobs:
       - name: Copy Main Page
         run: |
           cp index.html _site/index.html
+          touch _site/.nojekyll
           # If you have a style.css for the main page, copy it too:
           # cp style.css _site/style.css || true
 
